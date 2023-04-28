@@ -36,4 +36,4 @@ The link to my webpage is [My Portfolio] (http://127.0.0.1:5500/index.html#proje
 
 ![My Portfolio](/public/projectImages/port.png"My Portfolio Screenshot")
 
-![My Portfolio](/public/projectImages/example.png"My Portfolio Screenshot")
+![My Portfolio](/public/projectImages/example.png "My Portfolio Screenshot")
