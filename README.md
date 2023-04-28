@@ -34,6 +34,6 @@ If you have any questions or feedback, please don't hesitate to contact me at my
 
 The link to my webpage is [My Portfolio] (http://127.0.0.1:5500/index.html#projects)
 
-![My Portfolio](/public/projectImages/port.png"My Portfolio Screenshot")
+![My Portfolio](/public/projectImages/port.png "My Portfolio Screenshot")
 
 ![My Portfolio](/public/projectImages/example.png "My Portfolio Screenshot")
