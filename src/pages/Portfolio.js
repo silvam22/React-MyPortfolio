@@ -18,11 +18,11 @@ const Portfolio = () => {
       repoLink: 'https://github.com/silvam22/workout_tracker',
     },
     {
-      title: 'Fitness Tracker',
-      description: 'This is a web application created for users to keep track of their workouts and get feedback from trainers.',
-      image: 'https://example.com/project2.png',
-      liveLink: 'https://guarded-lowlands-52633.herokuapp.com/',
-      repoLink: 'https://github.com/silvam22/workout_tracker',
+      title: 'Notetaker',
+      description: 'This is a web application created for users to create and save notes.',
+      image: './projectImages/note.png',
+      liveLink: 'https://cryptic-citadel-85045.herokuapp.com/',
+      repoLink: 'https://github.com/silvam22/Miriam-Notetaker',
     },
     {
       title: 'Fitness Tracker',
@@ -32,11 +32,11 @@ const Portfolio = () => {
       repoLink: 'https://github.com/silvam22/workout_tracker',
     },
     {
-      title: 'Fitness Tracker',
-      description: 'This is a web application created for users to keep track of their workouts and get feedback from trainers.',
-      image: 'https://example.com/project2.png',
-      liveLink: 'https://guarded-lowlands-52633.herokuapp.com/',
-      repoLink: 'https://github.com/silvam22/workout_tracker',
+      title: 'Tech Blog',
+      description: 'This is a web application created for users to interact and create, save, and delete posts.',
+      image: './projectImages/techb.png',
+      liveLink: 'https://lit-badlands-30117.herokuapp.com/',
+      repoLink: 'https://github.com/silvam22/MVC-Challenge-Miriam',
     },
     {
       title: 'Savr',

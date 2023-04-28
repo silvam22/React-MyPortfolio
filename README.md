@@ -16,7 +16,6 @@ Welcome to my portfolio website! This website showcases my projects and skills a
 - CSS3
 - JavaScript
 - React
-- Materialize CSS Framework
 
 ## Features
 - Portfolio page that showcases my projects and skills
@@ -39,4 +38,6 @@ If you have any questions or feedback, please don't hesitate to contact me at my
 
 The link to my webpage is [My Portfolio] (http://127.0.0.1:5500/index.html#projects)
 
-![My Portfolio](/assets/img/Screen%20Shot%202022-11-19%20at%201.01.09%20PM.png "My Portfolio Screenshot")
+![My Portfolio](/projectImages/port.png "My Portfolio Screenshot")
+
+![My Portfolio](/projectImages/example.png "My Portfolio Screenshot")
