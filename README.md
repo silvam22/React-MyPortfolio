@@ -7,7 +7,6 @@ Welcome to my portfolio website! This website showcases my projects and skills a
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage ](#usage)
-- [Credits](#credits)
 - [License](#license)
 - [Contact](#contact)
 
@@ -27,9 +26,6 @@ To get started with the project, you can simply clone the repository to your loc
 ## Usage
 The navigation bar at the top of the page can be used to switch between the different pages of the website. Each project on the Projects page has a title, description, image, and links to live demos and GitHub repositories.
 
-## Credits
-The following resources were used in the creation of this portfolio:
-
 ## License
 This portfolio is licensed under the MIT License. 
 
@@ -38,6 +34,6 @@ If you have any questions or feedback, please don't hesitate to contact me at my
 
 The link to my webpage is [My Portfolio] (http://127.0.0.1:5500/index.html#projects)
 
-![My Portfolio](/projectImages/port.png "My Portfolio Screenshot")
+![My Portfolio](/public/projectImages/port.png"My Portfolio Screenshot")
 
-![My Portfolio](/projectImages/example.png "My Portfolio Screenshot")
+![My Portfolio](/public/projectImages/example.png"My Portfolio Screenshot")
