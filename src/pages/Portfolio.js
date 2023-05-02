@@ -42,7 +42,7 @@ const Portfolio = () => {
       title: 'Savr',
       description: 'This is web application that connects users to deals around their location',
       image: './projectImages/savr-deal-board.png',
-      liveLink: 'savr-app.herokuapp.com/',
+      liveLink: 'https://savr-app.herokuapp.com/',
       repoLink: 'https://github.com/silvam22/Savr',
     },
   ];
