@@ -1,21 +1,35 @@
 import React from 'react';
+import Project from '../components/Project';
 
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Weather and Music',
-      description: 'This is a web application for finding concerts and weather info when user inputs their desired location and artist. We will be using materialize framework to help buid the HTML layout.',
-      image: './projectImages/Screen Shot 2023-04-26 at 4.10.28 PM.png',
-      imageClass: 'project-image',
-      liveLink: 'https://desmondsaelee.github.io/weather-and-music',
-      repoLink: 'https://github.com/silvam22/weather-and-music',
+      title: 'SQL Employee Tracker',
+      description: 'This project enables non-developers to access and view employee information stored in an SQL database using user-friendly content management systems.',
+      image: './projectImages/sqlphoto.png',
+      liveLink: 'https://drive.google.com/file/d/154FzJMI8_I4L6G1zddZw1wO4CyD9LuRI/view',
+      repoLink: 'https://github.com/silvam22/Miriam-SQL-Challenge',
     },
     {
-      title: 'Fitness Tracker',
-      description: 'This is a web application created for users to keep track of their workouts and get feedback from trainers.',
-      image: 'https://example.com/project2.png',
-      liveLink: 'https://guarded-lowlands-52633.herokuapp.com/',
-      repoLink: 'https://github.com/silvam22/workout_tracker',
+      title: 'Savr',
+      description: 'This is fullstack web application powered by REACT that connects users to deals around Seattle.',
+      image: './projectImages/savr-deal-board.png',
+      liveLink: 'https://savr-app.herokuapp.com/',
+      repoLink: 'https://github.com/silvam22/Savr',
+    },
+    {
+      title: 'Just Another Text Editor',
+      description: 'This project aims to create a roster for your ongoing project. It enables you to assign engineers, interns, and managers to a roster displayed on an HTML page. The app includes tests using Jest to ensure its readiness for production.',
+      image: './projectImages/texteditor.png',
+      liveLink: 'https://immense-bayou-98168.herokuapp.com/',
+      repoLink: 'https://github.com/silvam22/texteditor-pwa',
+    },
+    {
+      title: 'Team Generator',
+      description: 'The Front-end Team Generator application is designed to create team members by utilizing command-line prompts. It provides an interactive interface that allows you to input information about each team member, such as their role, name, and contact details. Additionally, the application employs JEST, a testing framework, to verify the functionality and integrity of the generated components. ',
+      image: './projectImages/team.png',
+      liveLink: 'https://drive.google.com/file/d/121yRCR4HvAcVZADvwGndaoDzOZfrBzdQ/view',
+      repoLink: 'https://github.com/silvam22/Miriam-Team',
     },
     {
       title: 'Notetaker',
@@ -25,43 +39,33 @@ const Portfolio = () => {
       repoLink: 'https://github.com/silvam22/Miriam-Notetaker',
     },
     {
-      title: 'Fitness Tracker',
-      description: 'This is a web application created for users to keep track of their workouts and get feedback from trainers.',
-      image: 'https://example.com/project2.png',
-      liveLink: 'https://guarded-lowlands-52633.herokuapp.com/',
-      repoLink: 'https://github.com/silvam22/workout_tracker',
-    },
-    {
-      title: 'Tech Blog',
-      description: 'This is a web application created for users to interact and create, save, and delete posts.',
-      image: './projectImages/techb.png',
-      liveLink: 'https://lit-badlands-30117.herokuapp.com/',
-      repoLink: 'https://github.com/silvam22/MVC-Challenge-Miriam',
-    },
-    {
-      title: 'Savr',
-      description: 'This is web application that connects users to deals around their location',
-      image: './projectImages/savr-deal-board.png',
-      liveLink: 'https://savr-app.herokuapp.com/',
-      repoLink: 'https://github.com/silvam22/Savr',
-    },
+      title: 'Work Day Scheduler',
+      description: 'This is a front end application for non-developers to organize their work schedule using the app. Technologies used for this app are HTML, Javascript and CSS',
+      image: './projectImages/wds.png',
+      liveLink: 'https://silvam22.github.io/Miriam-WDS/',
+      repoLink: 'https://github.com/silvam22/Miriam-WDS',
+    }
   ];
 
   return (
     <div className='portfoliopage'>
-      <h1>Portfolio</h1>
-      {projects.map((project, index) => (
-        <div key={index}>
-          <h2>{project.title}</h2>
-          <p>{project.description}</p>
-          <img src={project.image} alt={project.title} className="project-image" />
-          <button class="live-demo-button"><a href={project.liveLink}>Live Demo</a></button>
-<button class="github-repo-button"><a href={project.repoLink}>GitHub Repository</a></button>
-
-        </div>
-      ))}
+      <h1>Projects</h1>
+      <div className='project-grid'>
+        {projects.map((project, index) => (
+          <Project
+            key={index}
+            title={project.title}
+            description={project.description}
+            image={project.image}
+            liveLink={project.liveLink}
+            repoLink={project.repoLink}
+          />
+        ))}
+      </div>
     </div>
   );
 };
 
 export default Portfolio;
+
+

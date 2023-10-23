@@ -4,10 +4,10 @@ import Navigation from './Navigation'
 function Header({setPage}) {
   return (
     <div>
-      <h1>Miriam's Portfolio</h1>
+      <h1>Welcome to my Portfolio &#128075;</h1>
       <Navigation setPage={setPage}/>
     </div>
   )
 }
 
-export default Header
+export default Header;

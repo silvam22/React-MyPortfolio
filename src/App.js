@@ -6,6 +6,7 @@ import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 function App() {
   const [page, setPage] = useState('')

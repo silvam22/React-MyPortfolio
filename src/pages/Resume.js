@@ -1,10 +1,14 @@
 import React from 'react';
 
 const Resume = () => {
+  const resumeUrl = '/resumes/techresume.pdf';
+
   return (
     <div>
       <h1>Resume</h1>
-      <a href="https://docs.google.com/document/d/1VPWDhAG9_4Lo0yhIWUB6proYr3jubqRHhzkSAjs_UMY/edit#">Download my resume</a>
+      <a href={resumeUrl} download="techresume.pdf">
+        Download Resume
+      </a>
     </div>
   );
 };

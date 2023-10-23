@@ -15,3 +15,4 @@ const Project = ({ title, description, image, liveLink, repoLink }) => {
 };
 
 export default Project;
+

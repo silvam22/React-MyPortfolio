@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-function Navigation({setPage}) {
+function Navigation({ setPage }) {
   return (
     <nav>
-      <a href='#' onClick={()=>setPage('')}>About Me</a>
-      <a href='#' onClick={()=>setPage('portfolio')}>Portfolio</a>
-      <a href='#' onClick={()=>setPage('contact')}>Contact</a>
-      <a href='#' onClick={()=>setPage('resume')}>Resume</a>
+      <button type="button" onClick={() => setPage('')}>About Me</button>
+      <button type="button" onClick={() => setPage('portfolio')}>Portfolio</button>
+      <button type="button" onClick={() => setPage('contact')}>Contact</button>
+      <button type="button" onClick={() => setPage('resume')}>Resume</button>
     </nav>
-  )
+  );
 }
 
-export default Navigation
+export default Navigation;
+
+
+
